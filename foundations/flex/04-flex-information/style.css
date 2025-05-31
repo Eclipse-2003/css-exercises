@@ -7,23 +7,17 @@ img {
   height: 100px;
 }
 
-.text {
-  display: flex;
+body {
   text-align: center;
 }
 
 .section {
-  display: flex; 
-  flex-flow: column wrap;
-  align-items: center;
-  width: 200px;
-  gap: 5px;
+  max-width: 200px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
-  text-align: center;
   margin-bottom: 32px;
 }
 
