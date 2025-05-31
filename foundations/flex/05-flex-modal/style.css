@@ -21,12 +21,21 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  gap: 16px;
+  padding: 16px;
 }
 
 .header {
-  margin-right: auto;
+  display: flex;
   font-weight: bold;
   font-size: larger;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
 }
 
 .icon {
