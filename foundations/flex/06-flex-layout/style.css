@@ -22,6 +22,15 @@ button {
   padding: 8px 16px;
 }
 
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+ul {
+  list-style-type: none;
+}
+
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
