@@ -37,6 +37,9 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .sidebar {
@@ -51,8 +54,9 @@ ul {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 300px;
+  padding: 16px;
+  flex-shrink: 0;
 }
 
 .content {
@@ -63,4 +67,6 @@ ul {
 .flash-cards {
   display: flex;
   flex-flow: row wrap;
+  padding: 48px;
+  gap: 32px
 }
